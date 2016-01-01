@@ -1,4 +1,4 @@
-# NGUITest
+# NGUITest--Unity NGUI 基础控件示例
 Unity NUGI Demo,C# 
 NUGI基础控件的使用和脚本绑定
 1.Mian.unity包括文本标签(Label)、按钮(Button)、滚动条(ScrollBar)、自定义字体等使用
