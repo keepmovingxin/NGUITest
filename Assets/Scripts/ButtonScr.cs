@@ -13,6 +13,7 @@ public class ButtonScr : MonoBehaviour {
 	
 	}
 
+	// Button onClick
 	void OnClick () {
 		Debug.Log ("button clicked!");
 		this.GetComponent<UIButton> ();

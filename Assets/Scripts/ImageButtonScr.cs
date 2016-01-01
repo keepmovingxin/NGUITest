@@ -15,6 +15,7 @@ public class ImageButtonScr : MonoBehaviour {
 	}
 
 	void OnClick () {
+		// change Sprite
 		if (this.flag) {
 			this.GetComponent<UISprite>().spriteName = "checkButton_2";
 			this.GetComponent<UIButton>().normalSprite = "checkButton_2";

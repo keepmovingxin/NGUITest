@@ -19,8 +19,11 @@ public class SendBtnScr : MonoBehaviour {
 	}
 
 	void OnClick () {
+		// find inputLabel By Name
 		GameObject input_Label = GameObject.Find ("Input_Label");
+		// init string 
 		string text_str = "[8bddfc]Some say:[-] " +"[33ff22]"+ count + input_Label.GetComponent<UILabel> ().text;
+		// add string
 		textList.Add (text_str);
 		count ++;
 	}
